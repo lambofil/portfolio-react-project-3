@@ -1,0 +1,121 @@
+.about{
+    background: black;
+    /* background: #191919; */
+}
+
+img.about_img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Monserrat,sans-serif;
+    font-size: 60px;
+}
+
+button.about.btn.pointer{
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+
+.about__button{
+    padding: 20px 0px;
+}
+
+.roww{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* .up__to__top__btn{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #f9004D;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+} */
+
+.personal-info h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.personal-info h1 a,
+.personal-info h1 a:hover {
+  color:#D1B000;
+  line-height: 1;
+  display: inline-block;
+}
+
+.personal-info h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.personal-info h2 font {
+    color: #fff;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+
+.personal-info .social-links {
+    margin-top: 40px;
+    display: flex;
+}
+
+.personal-info .social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.personal-info .social-links a:hover {
+    background: #18d26e;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .p__color{
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    button.about.btn.pointer{
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: 0.4s ease;
+    }
+}

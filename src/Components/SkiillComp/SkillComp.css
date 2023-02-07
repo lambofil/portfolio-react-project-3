@@ -1,0 +1,95 @@
+.container1{
+    background: black;
+    /* background: rgba(0, 0, 0, 0.9); */
+    padding: 30px;
+    width: 100%;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+    /* background-color: #aaaaaa; */
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 45vw;
+}
+  
+.skillsflex-row{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.skills .progress-bar{
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    /* background-color: #FFD700; */
+    background-color: #18d26e;
+}
+
+@media only screen and (max-width: 1300px){
+    .skills, .container1 {
+        max-width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .skillsflex-row {
+       flex-direction: column;
+       padding-right: 10px;
+    }
+}
+
+/* .skills .progress-bar{
+    background-color: #FFD700;
+    width: 2px;
+    height: 10px;
+} */
+
+/* .skills .progress-bar1{
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+} */

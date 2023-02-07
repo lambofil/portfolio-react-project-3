@@ -1,0 +1,10 @@
+.footer{
+    bottom:0;
+    text-align: center;
+    color: brown;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+    /* background-color: chartreuse; */
+    background-color: #ebebeb;
+}

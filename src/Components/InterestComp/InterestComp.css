@@ -1,0 +1,91 @@
+.container1{
+    background-color: black;
+}
+
+.interest-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.interest-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.interest-row{
+    margin-bottom: 20px;
+}
+
+.interest-row .interest-row-flex1 {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.interest-row .interest-row-flex2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.interest-row .interest-row-flex3 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.interest-row .interest-col{
+    width: 80%;
+    height: 4rem;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+.interests .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+}
+
+.interests .icon-box:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+@media only screen and (max-width: 1280px){
+    .interest .container1{
+        max-width: 100%;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 765px){
+    .interest-row-flex1, .interest-row-flex2, .interest-row-flex3{
+     flex-direction: column;
+    }
+}

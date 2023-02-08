@@ -88,3 +88,14 @@ h4.home__text {
     display: flex;
     align-items: center;
 }
+
+@media only screen and (max-width: 480px){
+    .i-title-wrapper .i-title-item {
+        height: 30px;
+        font-size: 25px;
+        color:#F9004D;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

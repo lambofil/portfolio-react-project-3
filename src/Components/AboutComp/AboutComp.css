@@ -110,10 +110,10 @@ button.about.btn.pointer{
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
     button.about.btn.pointer{
         text-transform: capitalize;
-        width: 165px;
+        width: 155px;
         height: 50px;
         font-size: 13px;
         transition: 0.4s ease;

@@ -3,7 +3,7 @@ import './ResumeComp.css';
 
 function ResumeComp() {
   return (
-        <div className='resume-container'>
+        <section className='resume-container'>
             <div className='resume-body'>
                 <div className='section-title'>
                     <h4>Resume</h4>
@@ -47,7 +47,7 @@ function ResumeComp() {
                                         <li>Ability to perform complex mathematical operations and model   data.</li>
                                         <li>Strong written and verbal communication skills.</li>
                                         <li>Capable of simplifying economic and mathematical data using modelling tools.</li>
-                                    </ul>
+                                    </ul> 
                                 </p>
                                
                             </div>
@@ -82,7 +82,7 @@ function ResumeComp() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
     )
 }

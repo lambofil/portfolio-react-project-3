@@ -13,7 +13,7 @@ function Header() {
                         <div className="i-title-item">Backend Developer</div>
                         <div className="i-title-item">Instructor & Counsellor</div>
                         <div className="i-title-item">Freelancer</div>
-                        <div className="i-title-item">Enterpreneur</div>
+                        <div className="i-title-item">Entrepreneur</div>
                     </div>  
                 </div>
                 <h4 className='home__text pz__10'>based in Nigeria.</h4>

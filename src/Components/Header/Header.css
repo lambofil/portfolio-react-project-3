@@ -92,11 +92,20 @@ h4.home__text {
 @media only screen and (max-width: 480px){
     .i-title-wrapper .i-title-item {
         height: 30px;
-        font-size: 25px;
+        font-size: 20px;
         color:#F9004D;
         flex-wrap: wrap;
         align-items: center;
         margin-top: 20px;
-    }
+    }   
     
+    h4.home__text{
+        font-size: 35px;
+        font-weight: 450;
+        line-height: 30px;
+    }
+
+    .home__meta {
+        height: 80vh;
+    }
 }

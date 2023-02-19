@@ -1,5 +1,6 @@
 .about{
     background: black;
+    padding: 0px 20px;
     /* background: #191919; */
 }
 
@@ -35,6 +36,7 @@ button.about.btn.pointer{
     overflow: hidden;
     align-items: flex-start;
     justify-content: center;
+    padding: 0x 20px;
 }
 
 /* .up__to__top__btn{
@@ -110,12 +112,16 @@ button.about.btn.pointer{
     }
 }
 
-@media only screen and (max-width: 480px) {
-    button.about.btn.pointer{
-        text-transform: capitalize;
-        width: 155px;
-        height: 50px;
-        font-size: 13px;
-        transition: 0.4s ease;
+@media only screen and (max-width: 1038px) {
+    button.about__button{
+        max-width:175px;
+        margin: 0px 20px;
+     }
+}
+@media only screen and (max-width: 584px) {
+    .d__flex{
+        flex-direction: column;
+        gap: 20px;
+        max-width: 100%;
     }
 }

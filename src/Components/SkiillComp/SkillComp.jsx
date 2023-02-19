@@ -24,23 +24,23 @@ function SkillComp() {
                     
                 </div>
                 <div className="progress">
-                    <span className="skill">CSS<i className="val">95%</i></span>
+                    <span className="skill">CSS<i className="val">85%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={95} min={0} max={100} />
+                        <ProgressBar now={85} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'90'} aria-valuemin={'0'} aria-valuemax={'100'}></div>  */}
                     </div>
                 </div>
                 <div className="progress">
-                    <span className="skill">JAVASCRIPT<i className="val">90%</i></span>
+                    <span className="skill">JAVASCRIPT<i className="val">75%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={90} min={0} max={100} />
+                        <ProgressBar now={75} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'75'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>
                 <div className="progress">
-                    <span className="skill">VUE<i className="val">92%</i></span>
+                    <span className="skill">VUE<i className="val">70%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={92} min={0} max={100} />
+                        <ProgressBar now={70} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'75'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>
@@ -48,30 +48,30 @@ function SkillComp() {
 
             <div className="skillflex2">
                 <div className="progress">
-                    <span className="skill">PYTHON<i className="val">90%</i></span>
+                    <span className="skill">PYTHON<i className="val">75%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={90} min={0} max={100} />
+                        <ProgressBar now={75} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'80'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>
                 <div className="progress">
-                    <span className="skill">ANGULAR<i className="val">95%</i></span>
+                    <span className="skill">ANGULAR<i className="val">78%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={95} min={0} max={100} />
+                        <ProgressBar now={78} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'85'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>
                 <div className="progress">
-                    <span className="skill">REACTJS<i className="val">92%</i></span>
+                    <span className="skill">REACTJS<i className="val">77%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={92} min={0} max={100} />
+                        <ProgressBar now={77} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'85'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>
                 <div className="progress">
-                    <span className="skill">FLASK<i className="val">95%</i></span>
+                    <span className="skill">FLASK<i className="val">79%</i></span>
                     <div className="progress-bar-wrap">
-                        <ProgressBar now={95} min={0} max={100} />
+                        <ProgressBar now={79} min={0} max={100} />
                         {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'85'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
                     </div>
                 </div>

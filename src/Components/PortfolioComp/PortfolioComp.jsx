@@ -8,7 +8,7 @@ const PortfolioComp = () => {
     <div className="pl">
        <div className="pl-texts">
             <h1 className="pl-title">My Projects</h1>
-            <p className="pl-desc">My projects are as follows: Calculator Web Application, Fontawesome login landing page, Doritos landing page and Vuejs todolist app.
+            <p className="pl-desc">My projects span as follows: Simple Form Validation, Exchange Rate Calculator App, Movie-Seat Booking App, Dom-Array Methods App, Custom Video Player App and a Sample Landing page.
             </p>
         </div>
         <div className="pl-list">

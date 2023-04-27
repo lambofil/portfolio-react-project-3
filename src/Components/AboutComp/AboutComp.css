@@ -71,7 +71,7 @@ button.about.btn.pointer{
 }
 
 .personal-info h2 {
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -79,6 +79,7 @@ button.about.btn.pointer{
 .personal-info h2 font {
     color: #fff;
     border-bottom: 2px solid #18d26e;
+    font-size: 19px;
     padding-bottom: 2px;
     /* width: 120px; */
     /* margin-right: 5px;
@@ -87,6 +88,7 @@ button.about.btn.pointer{
 
 .personal-info h2 span {
     margin-top: 8px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .personal-info .social-links {

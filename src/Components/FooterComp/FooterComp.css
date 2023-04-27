@@ -8,3 +8,10 @@
     /* background-color: chartreuse; */
     background-color: #ebebeb;
 }
+
+@media only screen and (max-width: 322px){
+    .footer{
+       font-size: x-small;
+       padding: 0 2px 0 2px;
+    }
+}

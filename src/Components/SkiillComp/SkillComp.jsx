@@ -8,10 +8,10 @@ function SkillComp() {
   return (
    <div className="skills container1">
 
-        <div class="section-title">
+        {/* <div class="section-title">
             <h2>Skills</h2>
-        </div>
-
+        </div> */}
+        <h2>Skills</h2>
         <div className="skillsflex-row">
 
             <div className="skillflex1">

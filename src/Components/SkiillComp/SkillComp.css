@@ -5,7 +5,19 @@
     width: 100%;
 }
 
-.section-title h2 {
+.container1 h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .section-title h2 {
     font-size: 14px;
     font-weight: 500;
     padding: 0;
@@ -15,9 +27,9 @@
     text-transform: uppercase;
     color: #aaaaaa;
     font-family: "Poppins", sans-serif;
-}
+} */
 
-.section-title h2::after {
+.container1 h2::after {
     content: "";
     width: 120px;
     height: 1px;
@@ -56,7 +68,7 @@
   
 .skillsflex-row{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     padding: 10px;
 }
 
@@ -81,6 +93,13 @@
        padding-right: 10px;
     }
 }
+
+/* @media only screen and (max-width: 1300px){
+    .skills, .container1 {
+        max-width: 100%;
+        margin-top: 0;
+    }
+} */
 
 /* .skills .progress-bar{
     background-color: #FFD700;

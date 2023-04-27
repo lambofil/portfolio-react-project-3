@@ -16,7 +16,7 @@ function AboutComp() {
 
             <div className='personal-info'>
               <h1><a href="/about" className='animate__animated animate__bounceInLeft'>Akintayo O Ayinde</a></h1>
-              <h2>I'm a passionate <font>web developer</font> from Nigeria</h2>
+              <h2>I'm a passionate <font>web developer</font> <span>from Nigeria</span></h2>
 
               <div class="social-links">
                 <a href="https://twitter.com/lambofil" class="twitter" target={'_blank'} rel={'noreferrer'} ><i class="fa fa-twitter" aria-hidden="true"></i></a>

@@ -283,6 +283,20 @@
     } 
 }
 
+@media only screen and (max-width:440px){
+    .contact .info .iframe iframe {
+       width: 250px;
+       height: 205px;
+    } 
+}
+
+@media only screen and (max-width:321px){
+    .contact .info .iframe iframe {
+       width: 190px;
+       height: 145px;
+    } 
+}
+
 /* 
 
 @media only screen and (min-width:480px){

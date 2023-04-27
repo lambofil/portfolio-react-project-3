@@ -22,6 +22,7 @@ button.about.btn.pointer{
     width: 195px;
     height: 55px;
     font-size: 18px;
+
     transition: 0.4s ease;
 }
 
@@ -78,7 +79,14 @@ button.about.btn.pointer{
 .personal-info h2 font {
     color: #fff;
     border-bottom: 2px solid #18d26e;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
+    /* width: 120px; */
+    /* margin-right: 5px;
+    margin-bottom: 5px; */
+}
+
+.personal-info h2 span {
+    margin-top: 8px;
 }
 
 .personal-info .social-links {
@@ -123,5 +131,11 @@ button.about.btn.pointer{
         flex-direction: column;
         gap: 20px;
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    button.btn {
+        margin: 10px 0px;
     }
 }

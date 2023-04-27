@@ -8,7 +8,7 @@ const Card = () => {
     <div className="pl">
         <div className="pl-texts">
             <h1 className="pl-title">My Projects</h1>
-            <p className="pl-desc">Check out some of my projects that span as follows: Doritos landing page, Calculator Web Application, a model fontawesome login design, a vuejs todolist app. 
+            <p className="pl-desc">My projects span as follows: Simple Form Validation, Exchange Rate Calculator App, Movie-Seat Booking App, Dom-Array Methods App, Custom Video Player App and a Sample Landing page.
             </p>
         </div>
         <div className="pl-list">

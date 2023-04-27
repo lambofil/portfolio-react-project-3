@@ -1,8 +1,13 @@
 .container1{
-    background-color: black;
+    background-color: black;   
 }
 
-.interest-title h2 {
+.container1 .pad {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.interest-title .h-two {
     font-size: 14px;
     font-weight: 500;
     padding: 0;
@@ -46,7 +51,7 @@
 }
 
 .interest-row .interest-col{
-    width: 80%;
+    width: 50%;
     height: 4rem;
     /* background-color: rgba(255, 255, 255, 0.2); */
 }
@@ -89,3 +94,25 @@
      flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 321px){
+    .interest-title .h-two::after {
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: none;
+        background: #4ceb95;
+        margin: 4px 10px;
+    }
+
+    .interest-title .h-two {
+        /* text-decoration: underline;
+        margin-bottom: 25px; */
+        text-decoration: none;
+        border-bottom: 1px solid #4ceb95;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        width: 120px;
+    }
+}
+

@@ -20,7 +20,7 @@ function ResumeComp() {
                                     <ul>
                                         <li>Nigeria, Oyo-State, Ibadan.</li>
                                         <li>+234 706 9053 540</li>
-                                        <li>lambofil@gmail.com</li>
+                                        <li>akintayo.ayinde @ gmail.com</li>
                                     </ul>
                                 </p>    
                             </div>
@@ -44,8 +44,8 @@ function ResumeComp() {
                                 <p className='p-bs'><em>Osun State University, Osogbo, Osun-State</em></p>
                                 <p>
                                     <ul>
-                                        <li>Ability to perform complex mathematical operations and model   data.</li>
                                         <li>Strong written and verbal communication skills.</li>
+                                        <li>Ability to perform complex mathematical operations and model data.</li>
                                         <li>Capable of simplifying economic and mathematical data using modelling tools.</li>
                                     </ul> 
                                 </p>
@@ -62,7 +62,8 @@ function ResumeComp() {
                                 <p>
                                     <ul>
                                         <li>Participated in the design, development and implementation of the websites landing page that's responsive and interactive.</li>
-                                        <li>Created a database backed web application todolist using flask and postgresql providing an amazing web experience for user.</li>
+                                        {/* <li>Created a database backed web application todolist using flask and postgresql providing an amazing web experience for user.</li> */}
+                                        <li>Created various various web applications providing an amazing web experience for user.</li>
                                         <li>Developed a user friendly and interactive portfolio website capable of providing a fasinating user experience.</li>
                                         <li>Skilled with various frontend frameworks like Reactjs, Angular and Vue for building a dynamic and impressive websites and applications.</li>
                                     </ul>
@@ -73,8 +74,8 @@ function ResumeComp() {
                                 <h5>2017-2021</h5>
                                 <p>
                                     <ul>
-                                        <li>Managed and supervised a fully dedicated internet access <br/> business as digital associate where I was able to build       relationships with clients, manage finances, and make sure that everything runs smoothly.</li>
-                                        <li>Volunteered in providing service as an instructor and employing <br/> my leadership and problem solving skills to counsel pupils in   <br/>their academic line of study under a federal social investment <br/> program and evaluated with outstanding performance and satisfaction.</li>
+                                        <li>Managed and supervised a fully dedicated internet access <br/> business as digital associate where I was able to build relationships with clients, manage finances, and make sure that everything runs smoothly.</li>
+                                        <li>Volunteered in providing service as an instructor and employing <br/> my leadership and problem solving skills to counsel pupils in <br/> their academic line under a federal social investment <br/> program and evaluated with outstanding performance and satisfaction.</li>
                                     </ul>
                                 </p>
                             </div>

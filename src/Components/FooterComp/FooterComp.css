@@ -1,17 +1,17 @@
-.footer{
-    bottom:0;
-    text-align: center;
-    color: brown;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 10px 0 10px 0;
-    /* background-color: chartreuse; */
-    background-color: #ebebeb;
+.footer {
+  bottom: 0;
+  text-align: center;
+  color: #ffff;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 0 10px 0;
+  /* background-color: chartreuse; */
+  background-color: #00185c;
 }
 
-@media only screen and (max-width: 322px){
-    .footer{
-       font-size: x-small;
-       padding: 0 2px 0 2px;
-    }
+@media only screen and (max-width: 322px) {
+  .footer {
+    font-size: x-small;
+    padding: 0 2px 0 2px;
+  }
 }

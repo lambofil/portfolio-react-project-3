@@ -1,34 +1,36 @@
-import React from 'react'
-import './PortfolioComp.css';
-import CardList from '../CardList/CardList';
-import { cardlist } from '../../data';
+import React from "react";
+import "./PortfolioComp.css";
+import CardList from "../CardList/CardList";
+import { cardlist } from "../../data";
 
 const PortfolioComp = () => {
   return (
     <div className="pl">
-       <div className="pl-texts">
-            <h1 className="pl-title">My Projects</h1>
-            <p className="pl-desc">My projects span as follows: Simple Form Validation, Exchange Rate Calculator App, Movie-Seat Booking App, Dom-Array Methods App, Custom Video Player App and a Sample Landing page.
-            </p>
-       </div>
-       <div className="pl-list">
-            {cardlist.map((item) => (<CardList key={item.id} img={item.img} link={item.link} />))}
-       </div>  
+      <div className="pl-texts">
+        <h1 className="pl-title">My Projects</h1>
+        <p className="pl-desc">
+          My projects span as follows: Modern gpt3 website, Gericht Restaurant
+          Website, Modern Banking Landing Page, Simple Form Validation, Exchange
+          Rate Calculator App, Movie-Seat Booking App, Dom-Array Methods App,
+          Custom Video Player App and a Sample Landing page.
+        </p>
+      </div>
+      <div className="pl-list">
+        {cardlist.map((item) => (
+          <CardList key={item.id} img={item.img} link={item.link} />
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-
-export default PortfolioComp
-
+export default PortfolioComp;
 
 // import React from 'react';
 // // import CardList from '../CardList/CardList';
 // // import { cardlist } from '../../data';
 // import './PortfolioComp.css';
 // import { Link } from 'react-router-dom';
-
-
 
 // const PortfolioComp = ({img, link}) => {
 //   return (
@@ -41,7 +43,7 @@ export default PortfolioComp
 //     <Link to={link}>
 //         <img src={img} alt="" className="p-img" />
 //     </Link>
-    
+
 //     </div>
 //   )
 // }
@@ -59,7 +61,7 @@ export default PortfolioComp
 //       <Link to={link}>
 //         <img src={img} alt="" className="p-img" />
 //       </Link>
-              
+
 //     </div>
 
 //     // <section className='portfolio'>
@@ -68,7 +70,7 @@ export default PortfolioComp
 //     //                 <h2 className='portfolio'>Portfolio</h2>
 //     //                 <p className='my_works'>My Works</p>
 //     //         </div>
-            
+
 //     //         <div className="row-portfolio-container">
 //     //             <div className="item">Project 1</div>
 //     //             <div className="item">Project 2</div>

@@ -1,12 +1,12 @@
 section {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    /* top: 140px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  /* top: 140px;
     bottom: 100%; */
-    /* opacity: 0; */
-    transition: ease-in-out 0.4s;
-    z-index: 2;
+  /* opacity: 0; */
+  transition: ease-in-out 0.4s;
+  z-index: 2;
 }
 
 /* .resume-container{
@@ -14,172 +14,170 @@ section {
     padding: 20px;
 } */
 
-section .resume-body{
-    background: black;
-    /* background: rgba(0, 0, 0, 0.9); */
-    padding: 30px;
+section .resume-body {
+  background: black;
+  /* background: rgba(0, 0, 0, 0.9); */
+  padding: 30px;
 }
 
 .section-title {
-    padding: 50px;
+  padding: 25px;
 }
 
-.section-title h4{
-    /* color: grey; */
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 30px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    font-family: "Poppins", sans-serif;
+.section-title h4 {
+  /* color: grey; */
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 30px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
 }
 
 .section-title h4::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.summary-container {
+  padding: 10px;
+}
+.summary-container2 {
+  padding: 10px;
+}
+.summary-body {
+  padding: 10px;
+}
+.summary-body2 {
+  padding: 10px;
+}
+.summary-flex {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+}
+
+.summary-body .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.summary-body2 .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.resume-item p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.resume-item .p-bs {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #18d26e;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume-container .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.resume-item ul {
+  padding: 20px;
+}
+
+.resume-item ul li {
+  padding: 10px;
+}
+.resume-container .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #18d26e;
+  border: 2px solid #18d26e;
+}
+
+@media only screen and (max-width: 768px) {
+  /* section {
+        top: 120px;
+      } */
+  .summary-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .section-title h4::after {
     content: "";
     width: 120px;
     height: 1px;
-    display: inline-block;
+    display: none;
     background: #4ceb95;
     margin: 4px 10px;
   }
 
-.section-title p{
-    margin: 0;
-    margin: -15px 0 15px 0;
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.summary-container{
-    padding: 10px;
-}
-.summary-container2{
-    padding: 10px;
-}
-.summary-body{
-    padding: 10px;
-}
-.summary-body2{
-    padding: 10px;
-}
-.summary-flex{
-    display: flex;
-    padding: 20px;
-    margin: 10px;
-}
-
-.summary-body .resume-title{
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-.summary-body2 .resume-title{
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.resume-item p{
-    color: #fff;
-    margin-bottom: 5px;
-}
-
-.resume-item .p-bs{
-    color: #fff;
-    margin-bottom: 15px;
-}
-.resume-item h4{
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #18d26e;
-    margin-bottom: 10px;
-}
-
-.resume-item h5{
-    font-size: 16px;
-    background: rgba(255, 255, 255, 0.15);
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-.resume-container .resume-item{
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid rgba(255, 255, 255, 0.2);
-    position: relative;
-}
-.resume-item ul {
-    padding: 20px;
-}
-
-.resume-item ul li{
-    padding: 10px;
-}
-.resume-container .resume-item::before{
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #18d26e;
-    border: 2px solid #18d26e;
-}
-
-@media only screen and (max-width:768px){
-    /* section {
-        top: 120px;
-      } */
-    .summary-flex {
-        display: flex;
-        flex-direction: column;
-    }
-     
-}
-
-@media only screen and (max-width:380px){
-    .section-title h4::after {
-        content: "";
-        width: 120px;
-        height: 1px;
-        display: none;
-        background: #4ceb95;
-        margin: 4px 10px;
-    }
-
-    .section-title h4 {
-        /* text-decoration: underline;
+  .section-title h4 {
+    /* text-decoration: underline;
         margin-bottom: 25px; */
-        text-decoration: none;
-        border-bottom: 1px solid #4ceb95;
-        margin-bottom: 30px;
-        padding-bottom: 15px;
-        width: 120px;
-    }
+    text-decoration: none;
+    border-bottom: 1px solid #4ceb95;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    width: 120px;
+  }
 }
 
+@media only screen and (max-width: 321px) {
+  .resume-item ul {
+    padding: 10px;
+  }
 
-@media only screen and (max-width:321px){
-    .resume-item ul {
-        padding: 10px;
-    }
-    
-    .resume-item ul li{
-        padding: 5px;
-    }
+  .resume-item ul li {
+    padding: 5px;
+  }
 }
 
 /* .resume{

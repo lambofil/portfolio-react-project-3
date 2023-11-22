@@ -63,6 +63,7 @@ function AboutComp() {
                   href="https://join.skype.com/invite/gtdGfd4lqF9p"
                   class="skype"
                   target={"_blank"}
+                  rel={"noreferrer"}
                 >
                   <i class="fa fa-skype" aria-hidden="true"></i>
                 </a>

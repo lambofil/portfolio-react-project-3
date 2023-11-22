@@ -100,6 +100,7 @@ h4.home__text {
 
   .i-title-wrapper {
     padding: 90px 50px;
+    width: max-content;
   }
 
   .i-title {
@@ -122,8 +123,9 @@ h4.home__text {
 
 @media only screen and (max-width: 450px) {
   h4.home__text {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 30px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 550;
+    line-height: 25px;
   }
 }

@@ -118,17 +118,20 @@
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  width: 100%;
 }
 
 .contact .email-form textarea {
   padding: 10px 15px;
   outline: 0;
+  width: 100%;
 }
 
 .contact .email-form input {
   height: 44px;
   padding-left: 13px;
   border: 1px solid grey;
+  width: 100%;
   /* outline:auto; */
   caret-color: red;
   /* size: 100%; */
@@ -284,6 +287,7 @@
   .email-form {
     padding-right: 15px;
     margin-right: 15px;
+    width: 100%;
   }
 }
 
@@ -298,6 +302,12 @@
   .contact .info .iframe iframe {
     width: 175px;
     height: 135px;
+  }
+
+  .contact .email-form input,
+  .contact .email-form textarea {
+    font-size: 12px;
+    width: 100%;
   }
 }
 

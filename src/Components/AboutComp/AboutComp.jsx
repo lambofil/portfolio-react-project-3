@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutComp.css";
 import img1 from "../../img/Akin.png";
-import mydoc from "../../img/Tech-RESUME.docx";
+import mydoc from "../../img/Tech-RESUME.pdf";
 import { Link } from "react-router-dom";
 
 function AboutComp() {

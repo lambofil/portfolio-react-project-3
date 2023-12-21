@@ -41,10 +41,10 @@ function SkillComp() {
           </div>
           <div className="progress">
             <span className="skill">
-              Typescript<i className="val">65%</i>
+              Typescript<i className="val">58%</i>
             </span>
             <div className="progress-bar-wrap">
-              <ProgressBar now={65} min={0} max={100} />
+              <ProgressBar now={58} min={0} max={100} />
               {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'75'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
             </div>
           </div>
@@ -80,10 +80,10 @@ function SkillComp() {
           </div>
           <div className="progress">
             <span className="skill">
-              NextJs<i className="val">55%</i>
+              React-redux<i className="val">70%</i>
             </span>
             <div className="progress-bar-wrap">
-              <ProgressBar now={55} min={0} max={100} />
+              <ProgressBar now={70} min={0} max={100} />
               {/* <div className="progress-bar" role={'progressbar'} aria-valuenow={'85'} aria-valuemin={'0'} aria-valuemax={'100'}></div> */}
             </div>
           </div>

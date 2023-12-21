@@ -1,7 +1,7 @@
-import img1 from "../src/img/3gpt_image.png";
+import img1 from "../src/img/movie-png.png";
 import img2 from "../src/img/modern_bank.png";
 import img3 from "../src/img/restaurant_img.png";
-import img4 from "../src/img/Dom-array.png";
+import img4 from "../src/img/3gpt_image.png";
 import img5 from "../src/img/custom-player.png";
 import img6 from "../src/img/landing-page.png";
 import img7 from "../src/img/form-validate.png";
@@ -12,7 +12,7 @@ export const cardlist = [
   {
     id: 1,
     img: img1,
-    link: "https://model-gpt3-website.netlify.app",
+    link: "https://my-movie-redux.netlify.app/",
   },
 
   {
@@ -28,7 +28,7 @@ export const cardlist = [
   {
     id: 4,
     img: img4,
-    link: "https://high-order-array-methods.netlify.app",
+    link: "https://model-gpt3-website.netlify.app",
   },
   {
     id: 5,

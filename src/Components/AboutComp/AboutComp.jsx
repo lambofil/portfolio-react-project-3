@@ -94,9 +94,9 @@ function AboutComp() {
               </p>
               <p className="about__text p__color">
                 I possess relevant skill stack in JavaScript/Typescript,
-                ReactJs, NextJs, Html, CSS, Tailwindcss and vitejs. I equally
-                possess leadership skill, good interpersonal skill, excellent
-                team player, as well as a problem-solving skill. I've
+                ReactJs, React-redux, NextJs, Html, CSS, Tailwindcss and vitejs.
+                I equally possess leadership skill, good interpersonal skill,
+                excellent team player, as well as a problem-solving skill. I've
                 collaborated and spearheaded the completion of static websites
                 and various other web applications that is highly performant
                 resulting in page load speed reduction capable of providing an

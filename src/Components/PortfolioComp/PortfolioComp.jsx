@@ -9,9 +9,9 @@ const PortfolioComp = () => {
       <div className="pl-texts">
         <h1 className="pl-title">My Projects</h1>
         <p className="pl-desc">
-          My projects span as follows: Redux-Movie App, Modern gpt3 website,
+          My projects span as follows: Emeraldshoppingmart App, Redux-Movie App, Modern gpt3 website,
           Gericht Restaurant Website, Modern Banking Landing Page, Simple Form
-          Validation, Exchange Rate Calculator App, Movie-Seat Booking App,
+          Validation, Exchange Rate Calculator App,
           Custom Video Player App and a Sample Landing page.
         </p>
       </div>

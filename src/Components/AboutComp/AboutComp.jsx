@@ -85,28 +85,27 @@ function AboutComp() {
             </h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                My name is Akintayo Olaleye Ayinde. A motivated web developer
-                and entry-level graduate, fullstack (frontend) with experience
-                in developing and creating elegant user interfaces, testing and
-                debugging performant and interactive websites that can support
-                millions of daily users. Searching for an opportunity to grow
-                front-end development skills in an innovative environment.
+                My name is Akintayo Olaleye Ayinde. I'm a motivated web developer
+                with experience in developing and creating elegant user interfaces, 
+                testing and debugging performant and interactive websites that can 
+                support millions of daily users. I am searching for an opportunity 
+                to grow front-end development skills in an innovative environment.
               </p>
               <p className="about__text p__color">
                 I possess relevant skill stack in JavaScript/Typescript,
-                ReactJs, React-redux, NextJs, Html, CSS, Tailwindcss and vitejs.
-                I equally possess leadership skill, good interpersonal skill,
-                excellent team player, as well as a problem-solving skill. I've
-                collaborated and spearheaded the completion of static websites
-                and various other web applications that is highly performant
-                resulting in page load speed reduction capable of providing an
-                impressive user experience (UX).
+                ReactJs, NextJS, React-redux, NextJs, Html, CSS, Tailwindcss
+                and vitejs. Also, I equally possess leadership skill, a good 
+                interpersonal relation skill, an excellent team player, as well as
+                possessing problem-solving skill. In addition, I've collaborated
+                and spearheaded the completion of static websites and various other
+                web applications that is highly performant resulting in page load 
+                speed reduction capable of providing an impressive user experience (UX).
               </p>
               <p className="about__text p__color">
                 I look forward to getting a frontend developer role in reactjs
                 to grow my passion and be part of a team developing an effective
                 and dynamic websites as well as managing them in other to ensure
-                efficiency and growth.
+                efficiency and growth contributing to the progress of the organization.
               </p>
               {/* <p className="about__text p__color">I am passionate about software computers and technology because it has facinated me from a young age and that's one of the reasons I pursued a career in software engineering, web development. Further, I want to use my skill and knowledge to make other people's job easier and productive.</p> <p className="about__text p__color">I hold a honors degree in Economics from Osun State University (Second Class Upper) with a Masters degree in Economics from the University of Ibadan, Ibadan Nigeria. Worked as an administrative officer with one year experience at the apex bank of Nigeria where I was responsible for doing paper works, representing the bank in the wider community, perform administrative duties like payment disbursements, file collation and sorting, inventory inspections, managed staff's records and datas, co-ordinated audit preparations and also participated in protocol duties. Received the highest appraisal of 98% rating during the period. Also volunteered with four years <sup>+</sup> experience as an instructor and counsellor in a social investment program organised by the government where i was able to tutor and counsel pupils in their line of studies and learning. Also received 95% <sup>+</sup> satisfaction rating from guardians and stakeholders.</p> */}
               <div className="about__button d__flex align__items__center">

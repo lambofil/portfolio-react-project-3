@@ -75,8 +75,8 @@ function InterestComp() {
                     </div>
                     <div className='interest-col'>
                         <div class="icon-box">
-                            <i class="fa-brands fa-wordpress" style={{color:'#FFA500'}}></i>
-                            <h3>WORDPRESS</h3>
+                            <i class="fa-brands fa-docker" style={{color:'#FFA500'}}></i>
+                            <h3>DOCKER</h3>
                         </div>
                     </div>
                     <div className='interest-col'>

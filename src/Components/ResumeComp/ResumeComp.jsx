@@ -17,10 +17,11 @@ function ResumeComp() {
                 <h4>AKINTAYO AYINDE</h4>
                 <p>
                   <em>
-                    Innovative and deadline-driven web developer with over 1+ of
-                    experience developing and imporving on web applications and
-                    websites designing from initial concept to final, polished
-                    deliverable.
+                    Innovative and deadline-driven web developer with over 2 
+                    years of experience in building frontend website for small 
+                    and medium-sized businesses. Whether you're trying to startup,
+                    manage your site, guide, collaborate and create a static website,
+                    I can help.
                   </em>
                 </p>
                 <p>
@@ -102,15 +103,14 @@ function ResumeComp() {
                       and speed.
                     </li>
                     <li>
-                      Developed a user friendly and interactive portfolio, a
-                      restaurant website, 3gpt landing page and a model banking
-                      website among others capable of providing a fasinating
-                      user experience using reactjs.
+                      Developed a user friendly and interactive portfolio, a ecommerce
+                      website, a restaurant website, 3gpt landing page and a model banking
+                      website among others capable of providing a fasinating user experience
+                      using reactjs.
                     </li>
                     <li>
-                      Skilled with javascript library like Reactjs, Nextjs, and
-                      Vitejs for building dynamic and impressive websites and
-                      applications.
+                      Skilled with javascript library like Reactjs, Nextjs, and Vitejs as well
+                      as tailwindcss for building dynamic and impressive web applications.
                     </li>
                   </ul>
                 </p>
@@ -129,10 +129,9 @@ function ResumeComp() {
                     <li>
                       Volunteered in providing service as an instructor and
                       employing <br /> my leadership and problem solving skills
-                      to counsel pupils in their academic line under a federal
-                      social investment program and was evaluated with an
-                      outstanding performance and satisfaction during my
-                      service.
+                      to tutor pupils in their academic line under the government
+                      social investment program. At the end of the program, I was appraised
+                      evaluated with an outstanding performance and satisfaction during my service.
                     </li>
                   </ul>
                 </p>
